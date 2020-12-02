@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<!DOCTYPE entreprise
+[
+<!ELEMENT entreprise (employe,matricule,nom,fonction,salaire,service,nomfonction,situationGeographique)>
+<!ELEMENT employe (#PCDATA)>
+<!ELEMENT matricule (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT fonction (#PCDATA)>
+<!ELEMENT salaire (#PCDATA)>
+<!ELEMENT service (#PCDATA)>
+<!ELEMENT nomfonction (#PCDATA)>
+<!ELEMENT situationGeographique (#PCDATA)>
+<!ATTLIST employe statut  CDATA #IMPLIED >
+]>
+<entreprise>
+    <employe statut="CADRE">
+        <matricule>SIDK5014</matricule>
+        <nom>DIALLO</nom>
+        <fonction >CEO</fonction>
+        <salaire>500.000f</salaire>
+        <service>
+            <nomfonction>INFORMATIQUE</nomfonction>
+            <situationGeographique>LIBERTE6</situationGeographique>
+        </service>
+    </employe>
+
+    <employe>
+        <matricule>SIDK5066</matricule>
+        <nom>DIATTA</nom>
+        <fonction>COMPTABLE</fonction>
+        <salaire>300.000f</salaire>
+        <service>
+            <nomfonction>COMPTABILITE</nomfonction>
+            <situationGeographique>DAKAR</situationGeographique>
+        </service>
+    </employe>
+
+</entreprise>

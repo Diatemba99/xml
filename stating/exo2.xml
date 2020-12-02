@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entreprise>
+
+    <employe>
+        <matricule>SIDK5014</matricule>
+        <nom>DIALLO</nom>
+        <fonction>CEO</fonction>
+        <salaire>500.000f</salaire>
+        <service>
+            <nomfonction>INFORMATIQUE</nomfonction>
+            <situationGeographique>LIBERTE6</situationGeographique>
+        </service>
+    </employe>
+
+    <employe>
+        <matricule>SIDK5014</matricule>
+        <nom>DIALLO</nom>
+        <fonction>CEO</fonction>
+        <salaire>500.000f</salaire>
+        <service>
+            <nomfonction>INFORMATIQUE</nomfonction>
+            <situationGeographique>LIBERTE6</situationGeographique>
+        </service>
+    </employe>
+
+</entreprise>

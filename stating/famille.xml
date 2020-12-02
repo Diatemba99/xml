@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<famille>
+    <pere>Aziz</pere>
+    <mere>Aminata</mere>
+    <enfant>
+        <nom>Jules</nom>
+        <rang>Aine</rang>
+        <age>20 ans</age>
+    </enfant>
+
+    <enfant>
+        <nom>Tapha</nom>
+        <rang>Cadet</rang>
+        <age>10 ans</age>
+    </enfant>
+
+</famille>

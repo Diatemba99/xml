@@ -1,0 +1,5 @@
+Demarche XSLT
+1-Créer un fichier XSLT ou XSL 
+2-Après le prologue du fichier .xml, ajouter la ligne:
+-->  <?xml stylesheet type="text/xsl" href="nom_fichier.xsl" ?>
+

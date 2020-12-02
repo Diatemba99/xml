@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<!DOCTYPE famille
+[
+<!ELEMENT famille (parent,pere,mere,enfant,nom,rang,age)>
+<!ELEMENT parent (#PCDATA)>
+<!ELEMENT pere (#PCDATA)>
+<!ELEMENT mere (#PCDATA)>
+<!ELEMENT enfant (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT rang (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+]>
+
+<famille>
+    <parent>
+        <pere>Aziz</pere>
+        <mere>Aminata</mere>
+    </parent>
+    <enfant>
+        <nom>Jules</nom>
+        <rang>Aine</rang>
+        <age>20 ans</age>
+    </enfant>
+
+    <enfant>
+        <nom>Tapha</nom>
+        <rang>Cadet</rang>
+        <age>10 ans</age>
+        <top>10 ans</top>
+    </enfant>
+
+</famille>

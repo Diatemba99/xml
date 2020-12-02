@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gouvernement>
+    <ministere>
+        <nom>Ministere de l'interieur</nom>
+        <ministre>Diop Kallou</ministre>
+        <lieu>Bargny</lieu>
+    </ministere>
+
+    <ministere>
+        <nom>Ministere de l'exterieur</nom>
+        <ministre>Christian Fall</ministre>
+        <lieu>Hanne</lieu>
+    </ministere>
+
+    <ministere>
+        <nom>Ministere du  Commerce</nom>
+        <ministre>Thaddy Nombo</ministre>
+        <lieu>Pointe Noire</lieu>
+    </ministere>
+
+    <ministere>
+        <nom>Ministere des forces armées</nom>
+        <ministre>Libissa Noumbi</ministre>
+        <lieu>Grand Yoff</lieu>
+    </ministere>
+</gouvernement>
